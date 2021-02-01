@@ -414,8 +414,7 @@ body {
     }
 }
 
-.slider {
-}
+.slider {}
 
 .slider_arrows {
     position: absolute;
@@ -1035,13 +1034,13 @@ body {
     box-shadow: inset 0px 0px 0 300px rgba(0, 0, 0, 0.76);
 
     &:hover {
-        & > img {
+        &>img {
             width: 120%;
             height: 120%;
         }
     }
 
-    & > img {
+    &>img {
         transition: 0.3s all ease-in-out;
         position: absolute;
         object-position: center;
@@ -1114,8 +1113,7 @@ body {
 }
 
 // AllLotsDescr
-.allLots-descr {
-}
+.allLots-descr {}
 
 .allLots-descr_row {
     display: flex;
